@@ -55,6 +55,8 @@ body {
     min-height: 100vh;
     padding: 20px;
     animation: fadeIn 1s ease-in-out;
+    position: relative;
+    z-index: 10;
 }
 
 /* Header */
@@ -106,6 +108,9 @@ body {
     max-width: 1200px;
     width: 100%;
     margin-bottom: 30px;
+    /* DEBUG: Temporary border to help identify rendering issues */
+    border: 2px solid rgba(255, 0, 0, 0.3);
+    min-height: 200px;
 }
 
 /* Gamemode Card */
@@ -118,6 +123,10 @@ body {
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 20;
+    /* DEBUG: Temporary border to help identify rendering issues */
+    box-shadow: 0 0 0 2px rgba(0, 255, 0, 0.5);
 }
 
 .gamemode-card:hover {
