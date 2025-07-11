@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HavocPvP - Gamemode Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="background">
+        <div class="background-overlay"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container" id="mainContainer" style="display: none;">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <h1>HavocPvP</h1>
+                <p>Multi-Gamemode Server</p>
+            </div>
+        </div>
+
+        <!-- Welcome Message -->
+        <div class="welcome">
+            <h2>Welcome to HavocPvP!</h2>
+            <p>Select a gamemode to begin your adventure</p>
+        </div>
+
+        <!-- Gamemode Grid -->
+        <div class="gamemode-grid" id="gamemodeGrid">
+            <!-- Gamemodes will be populated by JavaScript -->
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2024 HavocPvP Development Team</p>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen" style="display: none;">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h3 id="loadingMessage">Loading...</h3>
+        </div>
+    </div>
+
+    <!-- ASCII Art Hidden Element (for anti-copyright) -->
+    <div style="display: none;">
+        <!--
+        ██╗  ██╗ █████╗ ██╗   ██╗ ██████╗  ██████╗██████╗ ██╗   ██╗██████╗ 
+        ██║  ██║██╔══██╗██║   ██║██╔═══██╗██╔════╝██╔══██╗██║   ██║██╔══██╗
+        ███████║███████║██║   ██║██║   ██║██║     ██████╔╝██║   ██║██████╔╝
+        ██╔══██║██╔══██║╚██╗ ██╔╝██║   ██║██║     ██╔═══╝ ╚██╗ ██╔╝██╔═══╝ 
+        ██║  ██║██║  ██║ ╚████╔╝ ╚██████╔╝╚██████╗██║      ╚████╔╝ ██║     
+        ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝   ╚═════╝  ╚═════╝╚═╝       ╚═══╝  ╚═╝     
+        
+        HavocPvP Lobby UI - Anti-Copyright Protection
+        -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
