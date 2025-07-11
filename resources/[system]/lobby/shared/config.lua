@@ -21,7 +21,7 @@ Config.Lobby = {
     cameraCoords = vector3(0.0, 0.0, 1005.0),
     
     -- Time before showing gamemode selection UI (milliseconds)
-    uiDelay = 2000,
+    uiDelay = 500, -- Reduced from 2000 to 500ms for faster response
     
     -- Enable debug mode
     debug = true
@@ -43,7 +43,7 @@ Config.Gamemodes = {
         description = "Immersive roleplay experience",
         icon = "🎭",
         maxPlayers = 64,
-        enabled = false -- Not implemented yet
+        enabled = true -- Enabled for testing
     },
     {
         id = "pvp",
@@ -51,7 +51,7 @@ Config.Gamemodes = {
         description = "Competitive player vs player combat",
         icon = "⚔️",
         maxPlayers = 16,
-        enabled = false -- Not implemented yet
+        enabled = true -- Enabled for testing
     }
 }
 
