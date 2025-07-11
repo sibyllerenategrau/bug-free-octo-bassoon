@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    cursor: default; /* Ensure cursor is visible by default */
 }
 
 /* Background */
@@ -108,8 +109,6 @@ body {
     max-width: 1200px;
     width: 100%;
     margin-bottom: 30px;
-    /* DEBUG: Temporary border to help identify rendering issues */
-    border: 2px solid rgba(255, 0, 0, 0.3);
     min-height: 200px;
 }
 
@@ -125,14 +124,13 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     position: relative;
     z-index: 20;
-    /* DEBUG: Temporary border to help identify rendering issues */
-    box-shadow: 0 0 0 2px rgba(0, 255, 0, 0.5);
 }
 
 .gamemode-card:hover {
     transform: translateY(-5px);
     background: rgba(255, 255, 255, 0.15);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer; /* Ensure cursor remains pointer on hover */
 }
 
 .gamemode-card.disabled {
@@ -144,6 +142,7 @@ body {
     transform: none;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: none;
+    cursor: not-allowed; /* Ensure disabled cursor is shown */
 }
 
 .gamemode-icon {
@@ -276,4 +275,34 @@ body {
 /* Smooth transitions for all interactive elements */
 .gamemode-card, .loading-spinner {
     will-change: transform;
+}
+
+/* Cursor Visibility Rules - Ensure mouse cursor is always visible on interactive elements */
+* {
+    cursor: inherit; /* Inherit cursor from parent */
+}
+
+body, html {
+    cursor: default !important; /* Force default cursor visibility */
+}
+
+.gamemode-card:not(.disabled) {
+    cursor: pointer !important; /* Force pointer cursor on clickable cards */
+}
+
+.gamemode-card.disabled {
+    cursor: not-allowed !important; /* Force not-allowed cursor on disabled cards */
+}
+
+button, input, select, textarea {
+    cursor: pointer !important; /* Ensure form elements show pointer */
+}
+
+/* Additional hover states for better visual feedback */
+.gamemode-card:not(.disabled):hover {
+    cursor: pointer !important;
+}
+
+.gamemode-card:not(.disabled):active {
+    cursor: pointer !important;
 }
