@@ -28,6 +28,45 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add event listeners
     addEventListeners();
+    
+    // Add a fallback mechanism - show test UI after 5 seconds if no message received
+    setTimeout(function() {
+        if (!isVisible && gamemodes.length === 0) {
+            console.log('[LOBBY UI] No data received after 5 seconds, showing test UI');
+            // Use test data for debugging
+            gamemodes = [
+                {
+                    id: "default",
+                    name: "Default Gamemode",
+                    description: "Basic gamemode for testing purposes",
+                    icon: "🎮",
+                    maxPlayers: 32,
+                    enabled: true,
+                    currentPlayers: 0
+                },
+                {
+                    id: "roleplay",
+                    name: "Roleplay",
+                    description: "Immersive roleplay experience",
+                    icon: "🎭",
+                    maxPlayers: 64,
+                    enabled: true,
+                    currentPlayers: 0
+                },
+                {
+                    id: "pvp",
+                    name: "PvP Arena",
+                    description: "Competitive player vs player combat",
+                    icon: "⚔️",
+                    maxPlayers: 16,
+                    enabled: true,
+                    currentPlayers: 0
+                }
+            ];
+            renderGamemodes();
+            showUI();
+        }
+    }, 5000);
 });
 
 // Add event listeners
@@ -58,7 +97,8 @@ function addEventListeners() {
 function showUI() {
     isVisible = true;
     mainContainer.style.display = 'flex';
-    console.log('[LOBBY UI] UI shown');
+    console.log('[LOBBY UI] UI shown - container visibility:', mainContainer.style.display);
+    console.log('[LOBBY UI] Number of gamemodes:', gamemodes.length);
 }
 
 // Hide the UI
@@ -88,16 +128,20 @@ function renderGamemodes() {
         return;
     }
     
+    console.log('[LOBBY UI] Rendering gamemodes:', gamemodes);
+    
     // Clear existing cards
     gamemodeGrid.innerHTML = '';
     
     // Create cards for each gamemode
     gamemodes.forEach(gamemode => {
+        console.log('[LOBBY UI] Creating card for gamemode:', gamemode);
         const card = createGamemodeCard(gamemode);
         gamemodeGrid.appendChild(card);
     });
     
     console.log('[LOBBY UI] Rendered', gamemodes.length, 'gamemode cards');
+    console.log('[LOBBY UI] Grid innerHTML:', gamemodeGrid.innerHTML);
 }
 
 // Create a gamemode card element
@@ -178,10 +222,12 @@ function updateGamemodes(newGamemodes) {
 // Handle messages from FiveM client
 window.addEventListener('message', function(event) {
     const data = event.data;
+    console.log('[LOBBY UI] Received message:', data);
     
     switch (data.type) {
         case 'showGamemodeSelection':
             gamemodes = data.gamemodes || [];
+            console.log('[LOBBY UI] Received gamemodes:', gamemodes);
             renderGamemodes();
             showUI();
             break;
@@ -225,3 +271,39 @@ window.LobbyUI = {
 };
 
 console.log('[LOBBY UI] JavaScript initialized');
+
+// Add manual test function for debugging
+window.testLobbyUI = function() {
+    console.log('[LOBBY UI] Manual test triggered');
+    gamemodes = [
+        {
+            id: "default",
+            name: "Default Gamemode",
+            description: "Basic gamemode for testing purposes",
+            icon: "🎮",
+            maxPlayers: 32,
+            enabled: true,
+            currentPlayers: 0
+        },
+        {
+            id: "roleplay",
+            name: "Roleplay",
+            description: "Immersive roleplay experience",
+            icon: "🎭",
+            maxPlayers: 64,
+            enabled: true,
+            currentPlayers: 0
+        },
+        {
+            id: "pvp",
+            name: "PvP Arena",
+            description: "Competitive player vs player combat",
+            icon: "⚔️",
+            maxPlayers: 16,
+            enabled: true,
+            currentPlayers: 0
+        }
+    ];
+    renderGamemodes();
+    showUI();
+};

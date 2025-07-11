@@ -15,6 +15,9 @@ local isUIVisible = false
 -- Show gamemode selection UI
 function ShowGamemodeSelectionUI()
     if isUIVisible then
+        if Config.Lobby.debug then
+            print("[LOBBY UI] UI already visible, ignoring show request")
+        end
         return
     end
     
@@ -23,6 +26,13 @@ function ShowGamemodeSelectionUI()
     -- Enable NUI focus
     SetNuiFocus(true, true)
     
+    if Config.Lobby.debug then
+        print("[LOBBY UI] Sending gamemode data to UI:")
+        for i, gamemode in ipairs(Config.Gamemodes) do
+            print("  - " .. gamemode.name .. " (ID: " .. gamemode.id .. ", Enabled: " .. tostring(gamemode.enabled) .. ")")
+        end
+    end
+    
     -- Send gamemode data to UI
     SendNUIMessage({
         type = "showGamemodeSelection",
@@ -30,7 +40,7 @@ function ShowGamemodeSelectionUI()
     })
     
     if Config.Lobby.debug then
-        print("[LOBBY UI] Gamemode selection UI shown")
+        print("[LOBBY UI] Gamemode selection UI shown with " .. #Config.Gamemodes .. " gamemodes")
     end
 end
 
@@ -131,6 +141,22 @@ function HideLoadingScreen()
         type = "hideLoading"
     })
 end
+
+-- Console command to manually show UI for testing
+RegisterCommand('showlobby', function()
+    if Config.Lobby.debug then
+        print("[LOBBY UI] Manual UI trigger via command")
+    end
+    ShowGamemodeSelectionUI()
+end, false)
+
+-- Console command to hide UI for testing
+RegisterCommand('hidelobby', function()
+    if Config.Lobby.debug then
+        print("[LOBBY UI] Manual UI hide via command")
+    end
+    HideGamemodeSelectionUI()
+end, false)
 
 -- Export functions for other resources
 exports('ShowGamemodeSelectionUI', ShowGamemodeSelectionUI)
