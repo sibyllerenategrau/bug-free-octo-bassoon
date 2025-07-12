@@ -2,9 +2,13 @@
   "metadata": {
     "title": "Best Anime 2023-2025 Database",
     "description": "Comprehensive list of the best anime series and movies from 2023 to 2025",
-    "created_date": "2024-12-28",
-    "total_entries": 28,
-    "years_covered": ["2023", "2024", "2025"]
+    "created_date": "2025-07-12",
+    "total_entries": 36,
+    "years_covered": [
+      "2023",
+      "2024",
+      "2025"
+    ]
   },
   "anime_list": [
     {
@@ -15,11 +19,15 @@
       "studio": "Ufotable",
       "year": 2023,
       "rating": 9.2,
-      "genre": ["Action", "Supernatural", "Historical"],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Historical"
+      ],
       "seasons": 3,
       "episodes": 11,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1765/134329l.jpg",
+      "image": "https://via.placeholder.com/225x350/8e44ad/f8c471?text=Demon%2BSlayer%2BKimetsu%2Bno",
       "synopsis": "Third season focusing on the Swordsmith Village arc where Tanjiro trains with new breathing techniques."
     },
     {
@@ -30,11 +38,15 @@
       "studio": "MAPPA",
       "year": 2023,
       "rating": 9.1,
-      "genre": ["Action", "Supernatural", "School"],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "School"
+      ],
       "seasons": 2,
       "episodes": 23,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1792/138022l.jpg",
+      "image": "https://via.placeholder.com/225x350/e74c3c/f8f9fa?text=Jujutsu%2BKaisen%2BSeason%2B2",
       "synopsis": "Second season covering the Hidden Inventory arc and Shibuya Incident arc."
     },
     {
@@ -45,11 +57,15 @@
       "studio": "Madhouse",
       "year": 2023,
       "rating": 9.4,
-      "genre": ["Adventure", "Drama", "Fantasy"],
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
       "seasons": 1,
       "episodes": 28,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1015/138102l.jpg",
+      "image": "https://via.placeholder.com/225x350/27ae60/2c3e50?text=Frieren%2BBeyond%2BJourney%27s",
       "synopsis": "An elf mage embarks on a journey to understand humans and the meaning of life after her hero companion's death."
     },
     {
@@ -60,11 +76,15 @@
       "studio": "Wit Studio/MAPPA",
       "year": 2023,
       "rating": 9.0,
-      "genre": ["Action", "Drama", "Fantasy"],
+      "genre": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ],
       "seasons": 4,
       "episodes": 2,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1279/131078l.jpg",
+      "image": "https://via.placeholder.com/225x350/f39c12/2c3e50?text=Attack%2Bon%2BTitan%2BThe%2BFina",
       "synopsis": "The final conclusion to the Attack on Titan saga with the ultimate battle for humanity's freedom."
     },
     {
@@ -75,11 +95,15 @@
       "studio": "MAPPA",
       "year": 2023,
       "rating": 8.8,
-      "genre": ["Action", "Horror", "Supernatural"],
+      "genre": [
+        "Action",
+        "Horror",
+        "Supernatural"
+      ],
       "seasons": 1,
       "episodes": 12,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1806/126216l.jpg",
+      "image": "https://via.placeholder.com/225x350/3498db/ecf0f1?text=Chainsaw%2BMan",
       "synopsis": "Denji becomes Chainsaw Man to pay off his debt while fighting devils in a dark supernatural world."
     },
     {
@@ -90,11 +114,15 @@
       "studio": "CoMix Wave Films",
       "year": 2023,
       "rating": 8.9,
-      "genre": ["Adventure", "Drama", "Romance"],
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Romance"
+      ],
       "seasons": 1,
       "episodes": 1,
       "status": "Movie",
-      "image": "https://cdn.myanimelist.net/images/anime/1598/129369l.jpg",
+      "image": "https://via.placeholder.com/225x350/1abc9c/2c3e50?text=Suzume",
       "synopsis": "A coming-of-age story about a girl who must close doors causing disasters across Japan."
     },
     {
@@ -105,11 +133,15 @@
       "studio": "MAPPA",
       "year": 2023,
       "rating": 8.7,
-      "genre": ["Action", "Adventure", "Historical"],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Historical"
+      ],
       "seasons": 1,
       "episodes": 13,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1171/134421l.jpg",
+      "image": "https://via.placeholder.com/225x350/e67e22/ecf0f1?text=Hell%27s%2BParadise",
       "synopsis": "Death row inmates search for the elixir of life on a mysterious island filled with dangers."
     },
     {
@@ -120,11 +152,15 @@
       "studio": "Doga Kobo",
       "year": 2023,
       "rating": 8.8,
-      "genre": ["Drama", "Music", "Psychological"],
+      "genre": [
+        "Drama",
+        "Music",
+        "Psychological"
+      ],
       "seasons": 1,
       "episodes": 11,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1812/134736l.jpg",
+      "image": "https://via.placeholder.com/225x350/2c3e50/ecf0f1?text=Oshi%2Bno%2BKo",
       "synopsis": "A doctor reincarnated as the son of his favorite idol seeks to uncover the truth behind her murder."
     },
     {
@@ -135,11 +171,15 @@
       "studio": "Bones",
       "year": 2023,
       "rating": 9.1,
-      "genre": ["Action", "Comedy", "Supernatural"],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Supernatural"
+      ],
       "seasons": 3,
       "episodes": 12,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1228/125011l.jpg",
+      "image": "https://via.placeholder.com/225x350/8e44ad/f8c471?text=Mob%2BPsycho%2B100%2BIII",
       "synopsis": "The final season following Mob's journey to control his psychic powers and find his place in the world."
     },
     {
@@ -150,11 +190,15 @@
       "studio": "Wit Studio/CloverWorks",
       "year": 2023,
       "rating": 8.9,
-      "genre": ["Action", "Comedy", "Family"],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Family"
+      ],
       "seasons": 2,
       "episodes": 12,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1441/138006l.jpg",
+      "image": "https://via.placeholder.com/225x350/e74c3c/f8f9fa?text=Spy%2Bx%2BFamily%2BSeason%2B2",
       "synopsis": "The Forger family continues their undercover missions while maintaining their fake family facade."
     },
     {
@@ -165,11 +209,15 @@
       "studio": "A-1 Pictures",
       "year": 2024,
       "rating": 8.6,
-      "genre": ["Action", "Adventure", "Fantasy"],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
       "seasons": 1,
       "episodes": 12,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1090/140590l.jpg",
+      "image": "https://via.placeholder.com/225x350/27ae60/2c3e50?text=Solo%2BLeveling",
       "synopsis": "The weakest hunter becomes the strongest through a mysterious leveling system."
     },
     {
@@ -180,11 +228,15 @@
       "studio": "Trigger",
       "year": 2024,
       "rating": 9.0,
-      "genre": ["Adventure", "Comedy", "Fantasy"],
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
       "seasons": 1,
       "episodes": 24,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1456/142016l.jpg",
+      "image": "https://via.placeholder.com/225x350/f39c12/2c3e50?text=Dungeon%2BMeshi",
       "synopsis": "Adventurers cook and eat dungeon monsters while searching for their lost companion."
     },
     {
@@ -195,11 +247,15 @@
       "studio": "CloverWorks",
       "year": 2024,
       "rating": 8.4,
-      "genre": ["Action", "Drama", "School"],
+      "genre": [
+        "Action",
+        "Drama",
+        "School"
+      ],
       "seasons": 1,
       "episodes": 13,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1364/142288l.jpg",
+      "image": "https://via.placeholder.com/225x350/3498db/ecf0f1?text=Wind%2BBreaker",
       "synopsis": "A delinquent student joins a school known for its fighting prowess and protecting the town."
     },
     {
@@ -210,11 +266,15 @@
       "studio": "Production I.G",
       "year": 2024,
       "rating": 8.5,
-      "genre": ["Action", "Military", "Sci-Fi"],
+      "genre": [
+        "Action",
+        "Military",
+        "Sci-Fi"
+      ],
       "seasons": 1,
       "episodes": 12,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1932/142627l.jpg",
+      "image": "https://via.placeholder.com/225x350/1abc9c/2c3e50?text=Kaiju%2BNo.%2B8",
       "synopsis": "A man gains kaiju powers and joins the defense force to fight monsters threatening Japan."
     },
     {
@@ -225,11 +285,15 @@
       "studio": "Bones",
       "year": 2024,
       "rating": 8.3,
-      "genre": ["Action", "School", "Superhero"],
+      "genre": [
+        "Action",
+        "School",
+        "Superhero"
+      ],
       "seasons": 7,
       "episodes": 21,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1705/142298l.jpg",
+      "image": "https://via.placeholder.com/225x350/e67e22/ecf0f1?text=My%2BHero%2BAcademia%2BSeason%2B7",
       "synopsis": "The final war arc where heroes face their greatest challenge against All For One and Shigaraki."
     },
     {
@@ -240,11 +304,15 @@
       "studio": "Ufotable",
       "year": 2024,
       "rating": 8.8,
-      "genre": ["Action", "Supernatural", "Historical"],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Historical"
+      ],
       "seasons": 4,
       "episodes": 8,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1661/142870l.jpg",
+      "image": "https://via.placeholder.com/225x350/2c3e50/ecf0f1?text=Demon%2BSlayer%2BHashira%2BTra",
       "synopsis": "The Hashira prepare for the final battle against Muzan by training the Demon Slayer Corps."
     },
     {
@@ -255,11 +323,15 @@
       "studio": "Studio Ghibli",
       "year": 2024,
       "rating": 8.7,
-      "genre": ["Adventure", "Drama", "Fantasy"],
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
       "seasons": 1,
       "episodes": 1,
       "status": "Movie",
-      "image": "https://cdn.myanimelist.net/images/anime/1160/138689l.jpg",
+      "image": "https://via.placeholder.com/225x350/8e44ad/f8c471?text=The%2BBoy%2Band%2Bthe%2BHeron",
       "synopsis": "A young boy enters a magical world with the help of a grey heron after his mother's death."
     },
     {
@@ -270,11 +342,14 @@
       "studio": "8bit",
       "year": 2024,
       "rating": 8.2,
-      "genre": ["Sports", "Drama"],
+      "genre": [
+        "Sports",
+        "Drama"
+      ],
       "seasons": 2,
       "episodes": 14,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1745/142273l.jpg",
+      "image": "https://via.placeholder.com/225x350/e74c3c/f8f9fa?text=Blue%2BLock%2BSeason%2B2",
       "synopsis": "The U-20 Japan match arc where Blue Lock players face the national team."
     },
     {
@@ -285,11 +360,15 @@
       "studio": "8bit",
       "year": 2024,
       "rating": 8.4,
-      "genre": ["Adventure", "Comedy", "Fantasy"],
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
       "seasons": 3,
       "episodes": 24,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1623/142273l.jpg",
+      "image": "https://via.placeholder.com/225x350/27ae60/2c3e50?text=That%2BTime%2BI%2BGot%2BReincarna",
       "synopsis": "Rimuru faces new challenges as his nation grows and international politics become complex."
     },
     {
@@ -300,11 +379,15 @@
       "studio": "White Fox",
       "year": 2025,
       "rating": 8.9,
-      "genre": ["Drama", "Fantasy", "Psychological"],
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Psychological"
+      ],
       "seasons": 3,
       "episodes": 16,
       "status": "Announced",
-      "image": "https://cdn.myanimelist.net/images/anime/1200/143000l.jpg",
+      "image": "https://via.placeholder.com/225x350/f39c12/2c3e50?text=ReZero%2BSeason%2B3",
       "synopsis": "Subaru continues his journey in the fantasy world, facing new trials and mysteries."
     },
     {
@@ -315,11 +398,15 @@
       "studio": "Ufotable",
       "year": 2025,
       "rating": 9.0,
-      "genre": ["Action", "Supernatural", "Historical"],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Historical"
+      ],
       "seasons": 5,
       "episodes": 12,
       "status": "Announced",
-      "image": "https://cdn.myanimelist.net/images/anime/1200/143001l.jpg",
+      "image": "https://via.placeholder.com/225x350/e74c3c/f8f9fa?text=Demon%2BSlayer%2BInfinity%2BCa",
       "synopsis": "The final battle arc where Tanjiro and the Demon Slayers face Muzan in the Infinity Castle."
     },
     {
@@ -330,11 +417,15 @@
       "studio": "MAPPA",
       "year": 2025,
       "rating": 8.8,
-      "genre": ["Action", "Supernatural", "School"],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "School"
+      ],
       "seasons": 3,
       "episodes": 24,
       "status": "Announced",
-      "image": "https://cdn.myanimelist.net/images/anime/1200/143002l.jpg",
+      "image": "https://via.placeholder.com/225x350/27ae60/2c3e50?text=Jujutsu%2BKaisen%2BCulling%2BG",
       "synopsis": "The Culling Game arc where sorcerers participate in a deadly tournament to save Japan."
     },
     {
@@ -345,11 +436,15 @@
       "studio": "Pierrot",
       "year": 2025,
       "rating": 8.7,
-      "genre": ["Action", "Supernatural", "Military"],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Military"
+      ],
       "seasons": 4,
       "episodes": 13,
       "status": "Announced",
-      "image": "https://cdn.myanimelist.net/images/anime/1200/143003l.jpg",
+      "image": "https://via.placeholder.com/225x350/f39c12/2c3e50?text=Bleach%2BThousand-Year%2BBlo",
       "synopsis": "The final part of the Thousand-Year Blood War arc, concluding Ichigo's battle against Yhwach."
     },
     {
@@ -360,11 +455,15 @@
       "studio": "Toei Animation",
       "year": 2024,
       "rating": 9.2,
-      "genre": ["Action", "Adventure", "Comedy"],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
       "seasons": 1,
       "episodes": 25,
       "status": "Ongoing",
-      "image": "https://cdn.myanimelist.net/images/anime/1898/142500l.jpg",
+      "image": "https://via.placeholder.com/225x350/3498db/ecf0f1?text=One%2BPiece%2BEgghead%2BArc",
       "synopsis": "The Straw Hats arrive at Dr. Vegapunk's futuristic island and uncover major world secrets."
     },
     {
@@ -375,11 +474,15 @@
       "studio": "Production I.G",
       "year": 2024,
       "rating": 9.1,
-      "genre": ["Sports", "Drama", "School"],
+      "genre": [
+        "Sports",
+        "Drama",
+        "School"
+      ],
       "seasons": 1,
       "episodes": 1,
       "status": "Movie",
-      "image": "https://cdn.myanimelist.net/images/anime/1362/142271l.jpg",
+      "image": "https://via.placeholder.com/225x350/1abc9c/2c3e50?text=Haikyuu%2BThe%2BDumpster%2BBa",
       "synopsis": "The long-awaited match between Karasuno and Nekoma high schools in the nationals."
     },
     {
@@ -390,11 +493,15 @@
       "studio": "MAPPA",
       "year": 2023,
       "rating": 9.3,
-      "genre": ["Action", "Adventure", "Drama"],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
       "seasons": 2,
       "episodes": 24,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1170/127312l.jpg",
+      "image": "https://via.placeholder.com/225x350/e67e22/ecf0f1?text=Vinland%2BSaga%2BSeason%2B2",
       "synopsis": "Thorfinn's journey of redemption and self-discovery on a farm, moving away from violence."
     },
     {
@@ -405,11 +512,15 @@
       "studio": "A-1 Pictures",
       "year": 2024,
       "rating": 8.1,
-      "genre": ["Action", "Comedy", "Fantasy"],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Fantasy"
+      ],
       "seasons": 2,
       "episodes": 12,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1909/142272l.jpg",
+      "image": "https://via.placeholder.com/225x350/2c3e50/ecf0f1?text=Mashle%2BMagic%2Band%2BMuscles",
       "synopsis": "Mash continues to prove that muscles can overcome magic in the Divine Visionary exam arc."
     },
     {
@@ -420,32 +531,191 @@
       "studio": "TMS Entertainment",
       "year": 2023,
       "rating": 8.6,
-      "genre": ["Adventure", "Comedy", "Sci-Fi"],
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Sci-Fi"
+      ],
       "seasons": 3,
       "episodes": 22,
       "status": "Completed",
-      "image": "https://cdn.myanimelist.net/images/anime/1711/134225l.jpg",
+      "image": "https://via.placeholder.com/225x350/8e44ad/f8c471?text=Dr.%2BStone%2BNew%2BWorld",
       "synopsis": "Senku's team ventures across the ocean to find the source of the petrification phenomenon."
+    },
+    {
+      "id": 29,
+      "name": "Bocchi the Rock!",
+      "name_japanese": "ぼっち・ざ・ろっく！",
+      "author": "Aki Hamaji",
+      "studio": "CloverWorks",
+      "year": 2023,
+      "rating": 8.9,
+      "genre": [
+        "Comedy",
+        "Music",
+        "School"
+      ],
+      "seasons": 1,
+      "episodes": 12,
+      "status": "Completed",
+      "image": "https://via.placeholder.com/225x350/3498db/ecf0f1?text=Bocchi%2Bthe%2BRock",
+      "synopsis": "An introverted girl forms a band and overcomes her social anxiety through music."
+    },
+    {
+      "id": 30,
+      "name": "Lycoris Recoil",
+      "name_japanese": "リコリス・リコイル",
+      "author": "Spider Lily",
+      "studio": "A-1 Pictures",
+      "year": 2023,
+      "rating": 8.7,
+      "genre": [
+        "Action",
+        "Drama",
+        "Girls with Guns"
+      ],
+      "seasons": 1,
+      "episodes": 13,
+      "status": "Completed",
+      "image": "https://via.placeholder.com/225x350/1abc9c/2c3e50?text=Lycoris%2BRecoil",
+      "synopsis": "Two girls work as assassins in a seemingly peaceful organization in modern Japan."
+    },
+    {
+      "id": 31,
+      "name": "The Eminence in Shadow Season 2",
+      "name_japanese": "陰の実力者になりたくて！ 2nd season",
+      "author": "Daisuke Aizawa",
+      "studio": "Nexus",
+      "year": 2023,
+      "rating": 8.3,
+      "genre": [
+        "Action",
+        "Comedy",
+        "Fantasy"
+      ],
+      "seasons": 2,
+      "episodes": 12,
+      "status": "Completed",
+      "image": "https://via.placeholder.com/225x350/e67e22/ecf0f1?text=The%2BEminence%2Bin%2BShadow%2BSe",
+      "synopsis": "Cid continues his elaborate fantasy of being a mastermind behind the scenes."
+    },
+    {
+      "id": 32,
+      "name": "The Apothecary Diaries",
+      "name_japanese": "薬屋のひとりごと",
+      "author": "Natsu Hyuuga",
+      "studio": "Toho Animation Studio",
+      "year": 2023,
+      "rating": 9.0,
+      "genre": [
+        "Drama",
+        "Historical",
+        "Mystery"
+      ],
+      "seasons": 1,
+      "episodes": 24,
+      "status": "Completed",
+      "image": "https://via.placeholder.com/225x350/2c3e50/ecf0f1?text=The%2BApothecary%2BDiaries",
+      "synopsis": "A pharmacist girl solves mysteries in the imperial palace while avoiding court intrigue."
+    },
+    {
+      "id": 33,
+      "name": "Dandadan",
+      "name_japanese": "ダンダダン",
+      "author": "Yukinobu Tatsu",
+      "studio": "Science SARU",
+      "year": 2024,
+      "rating": 8.8,
+      "genre": [
+        "Action",
+        "Comedy",
+        "Supernatural"
+      ],
+      "seasons": 1,
+      "episodes": 12,
+      "status": "Ongoing",
+      "image": "https://via.placeholder.com/225x350/8e44ad/f8c471?text=Dandadan",
+      "synopsis": "A boy who believes in ghosts and a girl who believes in aliens encounter both."
+    },
+    {
+      "id": 34,
+      "name": "Sakamoto Days",
+      "name_japanese": "サカモトデイズ",
+      "author": "Yuto Suzuki",
+      "studio": "TMS Entertainment",
+      "year": 2025,
+      "rating": 8.6,
+      "genre": [
+        "Action",
+        "Comedy"
+      ],
+      "seasons": 1,
+      "episodes": 12,
+      "status": "Announced",
+      "image": "https://via.placeholder.com/225x350/e74c3c/f8f9fa?text=Sakamoto%2BDays",
+      "synopsis": "A legendary hitman tries to live a peaceful life as a convenience store owner."
+    },
+    {
+      "id": 35,
+      "name": "Tower of God Season 2",
+      "name_japanese": "神之塔 -Tower of God- 第2期",
+      "author": "SIU",
+      "studio": "Telecom Animation Film",
+      "year": 2024,
+      "rating": 8.4,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "seasons": 2,
+      "episodes": 13,
+      "status": "Completed",
+      "image": "https://via.placeholder.com/225x350/27ae60/2c3e50?text=Tower%2Bof%2BGod%2BSeason%2B2",
+      "synopsis": "Bam continues climbing the Tower to reunite with Rachel and uncover its secrets."
+    },
+    {
+      "id": 36,
+      "name": "Overlord IV",
+      "name_japanese": "オーバーロードIV",
+      "author": "Kugane Maruyama",
+      "studio": "Madhouse",
+      "year": 2023,
+      "rating": 8.2,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "seasons": 4,
+      "episodes": 13,
+      "status": "Completed",
+      "image": "https://via.placeholder.com/225x350/f39c12/2c3e50?text=Overlord%2BIV",
+      "synopsis": "Ainz continues expanding Nazarick's influence in the New World."
     }
   ],
   "statistics": {
-    "total_anime": 28,
+    "total_anime": 36,
     "by_year": {
-      "2023": 10,
-      "2024": 13,
+      "2023": 17,
+      "2024": 14,
       "2025": 5
     },
     "by_studio": {
       "MAPPA": 5,
       "Ufotable": 3,
-      "A-1 Pictures": 2,
-      "8bit": 2,
+      "A-1 Pictures": 3,
+      "Madhouse": 2,
+      "Bones": 2,
+      "CloverWorks": 2,
       "Production I.G": 2,
-      "Others": 14
+      "8bit": 2,
+      "TMS Entertainment": 2,
+      "Wit Studio/MAPPA": 1
     },
     "average_rating": 8.8,
     "highest_rated": "Frieren: Beyond Journey's End (9.4)",
     "most_episodes": "Frieren: Beyond Journey's End (28 episodes)",
-    "movies_included": 4
+    "movies_included": 3
   }
 }
